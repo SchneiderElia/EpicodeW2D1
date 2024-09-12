@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+}
+
+
+section {
+    height: 100%;
+    margin-top: 100px;
+}
+
+#card {
+    width: 500px;
+    height: 700px;
+    margin: auto;
+    background-image: url(assets/skate_ramp.jpg);
+    background-size: cover;
+    border-radius: 20px;
+
+
+}
+
+#save {
+    padding: 30px;
+    text-align: end;
+}
+
+.button {
+    background-color: #e60024;
+    padding: 15px 40px;
+    border-radius: 100px;
+    color: whitesmoke;
+
+
+}
+
+#bottomline {
+    margin-top: 540px;
+    text-align: end;
+    padding: 30px;
+}
+
+.bot-button {
+    display: inline-block;
+
+
+}
