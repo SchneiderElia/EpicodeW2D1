@@ -10,6 +10,7 @@ span {
     font-family: "Segoe UI";
     font-weight: 600;
     font-size: 1.3rem;
+    
 }
 
 section {
@@ -36,10 +37,12 @@ section {
     padding: 30px;
     text-align: end;
     transition: transform 0.3s;
+    cursor: pointer;
     }
     
     .save:hover {
         transform: scale(1.02);
+        
 }
 
 .buttonsave {
@@ -49,6 +52,9 @@ section {
     color: whitesmoke;
 }
 
+.buttonsave:hover {
+    background-color: #bb021e;
+}
 .bottomline {
     margin-top: 515px;
     text-align: end;
@@ -57,6 +63,7 @@ section {
         transition: opacity 0.8s;
         transform: translateY(20px);
         transition: transform 1s;
+        cursor: pointer;
 }
 
 #card:hover .bottomline {
@@ -66,6 +73,7 @@ section {
 
 .bot-buttontext {
     background-color: whitesmoke;
+    
     padding: 8px 12px;
     border-radius: 100px;
     color: rgb(0, 0, 0);
@@ -73,6 +81,12 @@ section {
     font-size: 20px;
     transform: translateY(0px);
     transition: transform 1s;
+}
+#textbot {
+    width: 320px;
+    white-space: nowrap;
+    /* overflow-y: hidden; */
+    text-overflow: ellipsis;
 }
 .bot-buttondots {
     background-color: whitesmoke;
@@ -90,6 +104,7 @@ section {
     }
     
     .bot-buttonup {
+        
         background-color: whitesmoke;
         padding: 8px 12px;
         border-radius: 100px;
@@ -98,11 +113,13 @@ section {
         font-size: 20px;
         transform: translateY(0px);
         transition: transform 1s;
+        
     }
     
     .bot-buttonup:hover {
         transform: translateY(-20px);
 }
+
 .bot-button {
     background-color: #e60024;
     padding: 15px 40px;
@@ -110,7 +127,7 @@ section {
         color: whitesmoke;
     display: inline-block;
 
-    text-overflow: ellipsis;
+    
 
 }
 
